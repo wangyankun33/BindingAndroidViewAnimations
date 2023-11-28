@@ -1,0 +1,18 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr  path="/api/package[@name='com.daimajia.androidanimations.library']/class[@name='BaseViewAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.zooming_exits']/class[@name='ZoomOutUpAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.zooming_exits']/class[@name='ZoomOutRightAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.zooming_exits']/class[@name='ZoomOutLeftAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr  path="/api/package[@name='com.daimajia.androidanimations.library.zooming_exits']/class[@name='ZoomOutDownAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.zooming_exits']/class[@name='ZoomOutAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.specials.out']/class[@name='TakingOffAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.specials.in']/class[@name='LandingAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.daimajia.androidanimations.library.specials.in']/class[@name='DropOutAnimator']/method[@name='prepare' and count(parameter)=1 and parameter[1][@type='android.view.View']]" name="visibility">public</attr>
+</metadata>
